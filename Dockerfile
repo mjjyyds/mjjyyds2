@@ -24,3 +24,7 @@ EXPOSE 22
 RUN echo 'root:test1234' | chpasswd
 
 CMD ["/usr/sbin/sshd", "-D"]
+
+Run apt-get install curl
+
+Run apt-get install vim
