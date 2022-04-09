@@ -25,6 +25,6 @@ RUN echo 'root:test1234' | chpasswd
 
 CMD ["/usr/sbin/sshd", "-D"]
 
-Run apt-get install curl
+RUN apt-get install curl
 
-Run apt-get install vim
+RUN apt-get install vim
